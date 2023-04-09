@@ -6,12 +6,23 @@
 //
 
 import SwiftUI
+import Firebase
 
 @main
 struct todoMathApp: App {
+    
+    @StateObject var listViewModel: ListViewModel = ListViewModel()
+    
+    init(){
+        FirebaseApp.configure()
+    }
+    
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            NavigationView {
+                ContentView()
+            }
+            .environmentObject(listViewModel)
         }
     }
 }
