@@ -21,6 +21,7 @@
 		74D6A0C329E1536E003989B2 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 74D6A0C229E1536E003989B2 /* GoogleService-Info.plist */; };
 		74D6A0C529E15CBD003989B2 /* AddView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74D6A0C429E15CBD003989B2 /* AddView.swift */; };
 		74D6A0CB29E1EE07003989B2 /* ListRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74D6A0CA29E1EE07003989B2 /* ListRowView.swift */; };
+		74D6A0D229E36851003989B2 /* ListRowViewServer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74D6A0D129E36851003989B2 /* ListRowViewServer.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,6 +35,7 @@
 		74D6A0C229E1536E003989B2 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		74D6A0C429E15CBD003989B2 /* AddView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddView.swift; sourceTree = "<group>"; };
 		74D6A0CA29E1EE07003989B2 /* ListRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListRowView.swift; sourceTree = "<group>"; };
+		74D6A0D129E36851003989B2 /* ListRowViewServer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListRowViewServer.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +59,7 @@
 			children = (
 				74A883BD29E14983008FEB16 /* todoMath */,
 				74A883BC29E14983008FEB16 /* Products */,
+				74D6A0D029E2B1D4003989B2 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -104,6 +107,7 @@
 			children = (
 				74D6A0C429E15CBD003989B2 /* AddView.swift */,
 				74D6A0CA29E1EE07003989B2 /* ListRowView.swift */,
+				74D6A0D129E36851003989B2 /* ListRowViewServer.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -114,6 +118,13 @@
 				74D6A09F29E14FA2003989B2 /* ListViewModel.swift */,
 			);
 			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		74D6A0D029E2B1D4003989B2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -200,6 +211,7 @@
 				74D6A09129E14CDF003989B2 /* ItemModel.swift in Sources */,
 				74A883C129E14983008FEB16 /* ContentView.swift in Sources */,
 				74D6A0C529E15CBD003989B2 /* AddView.swift in Sources */,
+				74D6A0D229E36851003989B2 /* ListRowViewServer.swift in Sources */,
 				74D6A0A029E14FA2003989B2 /* ListViewModel.swift in Sources */,
 				74A883BF29E14983008FEB16 /* todoMathApp.swift in Sources */,
 				74D6A0CB29E1EE07003989B2 /* ListRowView.swift in Sources */,
